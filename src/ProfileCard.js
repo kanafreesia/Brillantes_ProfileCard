@@ -24,7 +24,7 @@ const ProfileCard = () => {
             <a href="https://www.instagram.com/kanafreesia/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://youtu.be/R55VGD7aYUI?si=AdQtnFKWwl-2qWFn/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-youtube"></i>
             </a>
           </div>
