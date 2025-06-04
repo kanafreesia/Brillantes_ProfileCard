@@ -16,10 +16,18 @@ const ProfileCard = () => {
           <h2>Shandie Brillantes</h2>
           <p>Photographer</p>
           <div className="social-icons">
-            <a href="#"><i className="fab fa-facebook"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
-            <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-youtube"></i></a>
+            <a href="https://www.facebook.com/brillantes.nagac/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-facebook"></i>
+            </a>
+            <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/kanafreesia/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-instagram"></i>
+            </a>
+            <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+              <i className="fab fa-youtube"></i>
+            </a>
           </div>
           <div className="stats">
             <p>❤️ 10.4k | 💬 5k | 👍 10k</p>

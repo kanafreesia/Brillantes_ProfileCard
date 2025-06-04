@@ -3,7 +3,8 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f0f8f1;  /* Light sage green background */
+  background: linear-gradient(to bottom right, #8fbc8f, #f0f8f1);
+  
 }
 
 .profile-card {
@@ -16,8 +17,8 @@
 }
 
 .profile-header {
-  background-color: #8fbc8f;  /* Sage green background for header */
-  padding: 40px 20px;  /* Increased padding for more space */
+  background-color: #598459;  
+  padding: 40px 20px;  
   position: relative;
 }
 
@@ -25,16 +26,16 @@
   width: 100px;
   height: 100px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid #274527;
   object-fit: cover;
   position: absolute;
-  bottom: -50px;  /* Adjusted to lower the profile image */
+  bottom: -50px;  
   left: 50%;
-  transform: translateX(-50%);  /* Center the image horizontally */
+  transform: translateX(-50%); 
 }
 
 .profile-body {
-  padding: 70px 20px 20px;  /* Adjusted padding to accommodate the profile image position */
+  padding: 70px 20px 20px; 
 }
 
 h2 {
@@ -52,14 +53,14 @@ p {
 }
 
 .social-icons a {
-  color: #4f88ff;  /* Accent color for social icons */
+  color: #598459; 
   font-size: 20px;
   margin: 0 10px;
   transition: color 0.3s;
 }
 
 .social-icons a:hover {
-  color: #8fbc8f;  /* Sage green hover effect */
+  color: #8fbc8f;  
 }
 
 .stats p {
@@ -81,7 +82,7 @@ p {
 }
 
 .subscribe-btn {
-  background-color: #8fbc8f;  /* Sage green button */
+  background-color: #598459;  
   color: white;
 }
 
