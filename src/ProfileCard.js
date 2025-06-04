@@ -1,6 +1,5 @@
 import React from 'react';
-import './ProfileCard.css';  // Import the CSS styles
-
+import './ProfileCard.css';  
 const ProfileCard = () => {
   return (
     <div className="profile-card-container">
