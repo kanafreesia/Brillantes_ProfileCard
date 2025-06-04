@@ -1,0 +1,91 @@
+.profile-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f8f1;  /* Light sage green background */
+}
+
+.profile-card {
+  width: 500px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.profile-header {
+  background-color: #8fbc8f;  /* Sage green background for header */
+  padding: 40px 20px;  /* Increased padding for more space */
+  position: relative;
+}
+
+.profile-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  position: absolute;
+  bottom: -50px;  /* Adjusted to lower the profile image */
+  left: 50%;
+  transform: translateX(-50%);  /* Center the image horizontally */
+}
+
+.profile-body {
+  padding: 70px 20px 20px;  /* Adjusted padding to accommodate the profile image position */
+}
+
+h2 {
+  margin: 10px 0;
+  font-size: 24px;
+}
+
+p {
+  font-size: 14px;
+  color: #777;
+}
+
+.social-icons {
+  margin: 15px 0;
+}
+
+.social-icons a {
+  color: #4f88ff;  /* Accent color for social icons */
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #8fbc8f;  /* Sage green hover effect */
+}
+
+.stats p {
+  font-size: 14px;
+  color: #777;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.subscribe-btn, .message-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 5px;
+  font-size: 14px;
+}
+
+.subscribe-btn {
+  background-color: #8fbc8f;  /* Sage green button */
+  color: white;
+}
+
+.message-btn {
+  background-color: #ddd;
+  color: #333;
+}
